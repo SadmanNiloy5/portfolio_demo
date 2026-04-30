@@ -5,8 +5,8 @@ const Career = () => {
     <div className="career-section section-container">
       <div className="career-container">
         <h2>
-          My career <span>&</span>
-          <br /> experience
+          Education <span>&</span>
+          <br /> qualifications
         </h2>
         <div className="career-info">
           <div className="career-timeline">
@@ -15,43 +15,38 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>BSc in CSE</h4>
+                <h5>AIUB</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>Current</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Pursuing a Bachelor of Science in Computer Science and Engineering.
+              Achieved a CGPA of 3.75 so far.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Higher Secondary Certificate</h4>
+                <h5>College</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>HSC</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Completed Higher Secondary Certificate with a GPA of 5.00.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Secondary School Certificate</h4>
+                <h5>School</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>SSC</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Completed Secondary School Certificate with a GPA of 5.00.
             </p>
           </div>
         </div>

@@ -6,9 +6,11 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          dolores numquam iusto Ratione earum ducimus autem id iure pariatur
-          dolorum quae maiores.
+          CSE student with hands-on experience in full-stack development. 
+          Skilled in Next.js, NestJS, ASP.NET Core, and Java. Basic foundation 
+          in Data Structures, Algorithms, and Software Testing. Focused on 
+          scalable systems and clean, maintainable code. Seeking Software 
+          Engineering internship.
         </p>
       </div>
     </div>

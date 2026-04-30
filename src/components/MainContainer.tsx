@@ -9,6 +9,7 @@ import SocialIcons from "./SocialIcons";
 import WhatIDo from "./WhatIDo";
 import Work from "./Work";
 import setSplitText from "./utils/splitText";
+import ContactWidget from "./ContactWidget";
 
 const TechStack = lazy(() => import("./TechStack"));
 
@@ -34,6 +35,7 @@ const MainContainer = ({ children }: PropsWithChildren) => {
       <Cursor />
       <Navbar />
       <SocialIcons />
+      <ContactWidget />
       {isDesktopView && children}
       <div id="smooth-wrapper">
         <div id="smooth-content">
@@ -44,9 +46,11 @@ const MainContainer = ({ children }: PropsWithChildren) => {
             <Career />
             <Work />
             {isDesktopView && (
-              <Suspense fallback={<div>Loading....</div>}>
-                <TechStack />
-              </Suspense>
+              <div style={{ minHeight: "100vh", position: "relative", zIndex: 11 }}>
+                <Suspense fallback={<div style={{ height: "100vh", display: "flex", alignItems: "center", justifyContent: "center" }}>Loading Tech Stack...</div>}>
+                  <TechStack />
+                </Suspense>
+              </div>
             )}
             <Contact />
           </div>
