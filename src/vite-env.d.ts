@@ -1,6 +1,6 @@
 /// <reference types="vite/client" />
 
-declare module 'gsap-trial/SplitText' {
+declare module 'gsap/SplitText' {
   interface SplitText {
     words: HTMLElement[];
     chars: HTMLElement[];
@@ -17,4 +17,4 @@ declare module 'gsap-trial/SplitText' {
   }
 }
 
-declare module 'gsap-trial/ScrollSmoother';
+declare module 'gsap/ScrollSmoother';
